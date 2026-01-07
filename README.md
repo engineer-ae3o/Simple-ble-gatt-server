@@ -1,4 +1,4 @@
-```markdown
+```
 # ESP32 BLE GATT Server
 
 BLE GATT server implementation for ESP32 using NimBLE stack. Exposes sensor data (temperature, humidity, voltage, current, power, battery state) over three standard BLE services.
@@ -20,7 +20,9 @@ BLE GATT server implementation for ESP32 using NimBLE stack. Exposes sensor data
 ## Project Structure
 
 ```
-.
+
+
+
 ├── main.cpp           # Application entry point
 ├── ble.hpp            # BLE interface header
 ├── ble.cpp            # BLE implementation
