@@ -14,14 +14,11 @@ BLE GATT server implementation for ESP32 using NimBLE stack. Exposes sensor data
 ## Hardware Requirements
 
 - ESP32 (any variant with BLE support)
-- ESP-IDF v4.4+ (tested on v5.x)
+- ESP-IDF v4.4+ (tested on v5.3.1)
 
 ## Project Structure
 
 ```
-
-
-
 ├── main.cpp           # Application entry point
 ├── ble.hpp            # BLE interface header
 ├── ble.cpp            # BLE implementation
@@ -60,7 +57,7 @@ ble::deinit()  // Cleanup and shutdown
 
 Edit `ble.cpp` to modify:
 
-- **Device name**: `BLE_GAP_NAME` (line 164)
+- **Device name**: `BLE_GAP_NAME` (line 178)
 - **Sensor functions**: `get_temperature()`, `get_humidity()`, etc. (lines 154-168)
 - **Security settings**: `ble_hs_cfg` security parameters (lines 565-580)
 - **Debug logging**: `BLE_DEBUG` macro (line 24)
