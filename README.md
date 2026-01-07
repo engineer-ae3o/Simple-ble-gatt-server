@@ -29,7 +29,7 @@ BLE GATT server implementation for ESP32 using NimBLE stack. Exposes sensor data
 
 ```bash
 idf.py build
-idf.py -p /dev/ttyUSB0 flash monitor
+idf.py -p <ESP32's port> flash monitor
 ```
 
 ## Usage
