@@ -1,4 +1,3 @@
-```
 # ESP32 BLE GATT Server
 
 BLE GATT server implementation for ESP32 using NimBLE stack. Exposes sensor data (temperature, humidity, voltage, current, power, battery state) over three standard BLE services.
@@ -98,4 +97,3 @@ Keys are stored in NVS flash for persistent bonding across reboots.
 ## License
 
 MIT License
-```
